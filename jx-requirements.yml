@@ -20,9 +20,9 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 34.86.27.203
     externalDNS: false
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: -nginx.
     tls:
       email: ""
       enabled: false
