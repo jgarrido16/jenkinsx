@@ -24,7 +24,7 @@ spec:
   ingress:
     domain: 34.86.27.203
     externalDNS: false
-    namespaceSubDomain: -nginx.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
