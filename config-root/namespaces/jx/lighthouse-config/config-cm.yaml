@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - jgarrido16/jenkinsx
-      target_url: http://lighthouse-jx.34.86.189.163.nip.io/merge/status
+      target_url: http://lighthouse-jx./merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
