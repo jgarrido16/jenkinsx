@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jgarrido16
+    provider: github
+    repository: jenkinsx
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: jgarrido16-jenkinsx
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/jgarrido16/jenkinsx.git
+  org: jgarrido16
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkinsx
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/jgarrido16/jenkinsx

@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         jgarrido16/jenkinsx: true
+        jgarrido16/potatoes: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         jgarrido16/jenkinsx: merge
+        jgarrido16/potatoes: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - jgarrido16/jenkinsx
+        - jgarrido16/potatoes
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - jgarrido16/jenkinsx
+        - jgarrido16/potatoes
       target_url: http://lighthouse-jx.34.150.184.204/merge/status
 kind: ConfigMap
 metadata:
